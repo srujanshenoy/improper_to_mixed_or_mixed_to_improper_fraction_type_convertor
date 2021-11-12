@@ -5,6 +5,8 @@ while True:
     if Whole_part == "End Now":
         print("OK. Ending now...")
         break
+    else:
+        Whole_part_int = int(Whole_part)
 
     Numerator_of_input = input("N: ")
 
@@ -21,5 +23,6 @@ while True:
     else:
         denominator_of_input_int = int(denominator_of_input)
 
-    numerator_of_output = Whole_part*denominator_of_input+Numerator_of_input
+    numerator_of_output = Whole_part_int * \
+        denominator_of_input_int+Numerator_of_input_int
     print(f"{Whole_part} {Numerator_of_input_int}/{denominator_of_input_int} = {numerator_of_output}/{denominator_of_input_int}")
