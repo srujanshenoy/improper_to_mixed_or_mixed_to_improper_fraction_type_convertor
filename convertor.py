@@ -1,5 +1,6 @@
 while True:
     print("W N/D")
+    print("if you want to end, type End Now exactly into any feild.")
     Whole_part = input("W: ")
     if Whole_part == "End Now":
         print("OK. Ending now...")
