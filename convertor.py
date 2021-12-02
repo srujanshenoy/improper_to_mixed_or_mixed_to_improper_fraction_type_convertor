@@ -1,8 +1,8 @@
 while True:
     print("\n\nW N/D")
-    print("if you want to end, type End Now exactly into any feild.")
+    print("if you want to end, type End Now in any uppercase/ lowercse form into any feild.")
     Whole_part = input("\nW: ")
-    if Whole_part == "End Now":
+    if Whole_part.lower() == "end now":
         print("OK. Ending now...")
         break
     else:
@@ -12,7 +12,7 @@ while True:
 
     Numerator_of_input = input("\nN: ")
 
-    if Numerator_of_input == "End Now":
+    if Numerator_of_input.lower() == "end now":
         print("OK. Ending now...")
         break
     else:
@@ -22,7 +22,7 @@ while True:
 
     denominator_of_input = input("\nD: ")
 
-    if denominator_of_input == "End Now":
+    if denominator_of_input.lower() == "end now":
         print("OK. Ending now...")
         break
     else:
