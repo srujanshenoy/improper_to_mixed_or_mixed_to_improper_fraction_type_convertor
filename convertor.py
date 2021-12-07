@@ -4,7 +4,6 @@ while True:
     2. improper to mixed"""))
 
     if mode == 1:
-
         print("you have entered mixed to improper mode.")
         print("\n\nW N/D")
         print("if you want to end, type End Now in any uppercase/ lowercse form into any feild.")
@@ -47,7 +46,6 @@ while True:
 
     if mode == 2:
         while True:
-            print("you have entered improper to mixed mode.")
             print("you have entered improper to mixed mode.")
             numerator_of_input = int(input("input the numerator: "))
 
