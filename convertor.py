@@ -28,6 +28,9 @@ while True:
     else:
         denominator_of_input_int = int(denominator_of_input)
 
+    if denominator_of_input_int == 0:
+        print("invalid input. running fromom start!")
+        continue
     print(
         f"you have entered: {Whole_part} {Numerator_of_input}/{denominator_of_input} ")
 
